@@ -1,0 +1,17 @@
+{
+  "name": "simplest-typescript-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Simplest Typescript webpack loader, ever.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base ./public"
+  },
+  "author": "Ian Ker-Seymer <i.kerseymer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.5",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}
